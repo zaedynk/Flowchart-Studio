@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="Flowchart.cpp">
+      <Filter>Interface\Flowchart</Filter>
+    </ClCompile>
+    <ClCompile Include="Hierarchy.cpp">
+      <Filter>Interface\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBar.cpp">
+      <Filter>Interface\MenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview.cpp">
+      <Filter>Interface\Preview</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="Node.h">
+      <Filter>Interface\Flowchart\Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{96d2b76d-1469-4273-9528-b534a149045c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Hierarchy">
+      <UniqueIdentifier>{23758ff5-915f-49b4-a565-9692d8ac09c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Flowchart">
+      <UniqueIdentifier>{e51bf072-4651-4774-bdb8-2293ff6989ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Preview">
+      <UniqueIdentifier>{786dc5f5-293e-489c-af74-f9ab9f9b4a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MenuBar">
+      <UniqueIdentifier>{6ff8cdbe-74c7-4726-b69f-fe0d7e66c22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Flowchart\Node">
+      <UniqueIdentifier>{902bd924-cd8b-4516-9079-fff8ae3ba968}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
